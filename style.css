@@ -110,8 +110,8 @@ h2 strong {
   width: 200px;
   height: 50px;
   padding: 10px;
-  background-color: var(--vermelho);
   opacity: 0.5;
+  background-color: var(--vermelho);
   color: #ffffff;
   transition: all 0.6s;
 }
@@ -123,7 +123,6 @@ h2 strong {
 /* section about */
 #about {
   background: linear-gradient(180deg, #a8181872, black);
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -167,6 +166,37 @@ h2 strong {
   box-shadow: 1px 1px 10px white;
 }
 
+/* section project */
+#project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  /* margin: 80px; */
+  border: 1px solid;
+}
+#project h2 {
+  font-size: 40px;
+  color: var(--vermelho);
+}
+#project div {
+  margin: 80px;
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#project .article {
+  width: 250px;
+  height: 250px;
+  background-color: rgba(128, 128, 128, 0.432);
+  border-radius: 10px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* section contact */
 #contact {
   background-color: black;
@@ -186,4 +216,8 @@ footer {
 
 footer p {
   font-weight: 700;
+}
+
+section {
+  border: 1px solid;
 }
